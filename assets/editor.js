@@ -3,7 +3,7 @@ const jarvis = {
       // Galeriyi listeleme komutu
       list: async function () {
           try {
-              const response = await fetch('/assets/gallery.json'); // Yerel sunucuya istek gönder
+              const response = await fetch('assets/gallery.json'); // Yerel sunucuya istek gönder
               if (!response.ok) throw new Error('Galeri verisi alınırken hata oluştu.');
               const data = await response.json();
               console.log('Galeri:', data);
