@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "src": "assets/projects/project1.jpg",
+    "description": "Simple Calculator using JS, CSS and HTML",
+    "date": "2025-01-02",
+    "category": " ",
+    "creator": "Mustafa Duran",
+    "location": "",
+    "tags": [
+      "calculator",
+      "js",
+      "css",
+      "html"
+    ],
+    "comments": [
+      " ",
+      "  "
+    ],
+    "isFeatured": true,
+    "showOnHomepage": true
+  }
+]
